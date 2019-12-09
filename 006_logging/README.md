@@ -4,13 +4,8 @@
 
 ## Basics
 - Level  
-
-	1.　CRITICAL
-
-	1.　ERROR
-
-	1.　WARNING
-
-	1.　INFO
-
-	1.　DEBUG
+	1.　CRITICAL  
+	2.　ERROR     
+	3.　WARNING   
+	4.　INFO      
+	5.　DEBUG     
