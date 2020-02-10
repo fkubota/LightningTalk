@@ -13,3 +13,20 @@
 ## 例
 1. sshfs でサーバー側のディレクトリをマウント。audacityからサーバー側にある音データを読み込む。これだけ！
 1. sshfs でサーバー側のディレクトリをマウント。 `moc` というターミナルで動く music player を起動して聞きたい音を聞く。これだけ！
+
+## moc(music on console) の使い方
+- install
+	- sudo apt-get install moc
+
+- 起動
+	- `mocp`
+
+- 動作
+	- h: ヘルプ
+	- Enter: 再生
+	- space: 一時停止、再生
+	- a: プレイリストに追加
+	- shift-t: テーマの変更
+	- >(<): 音量を上げる(下げる)
+	- leht(right): 進める(戻す)
+	- その他、便利な機能は、ヘルプから確認してください。
