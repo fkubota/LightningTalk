@@ -9,7 +9,10 @@
 `sshfs` コマンドを使って、サーバー側のディレクトリをマウントする。これだけ。
 
 - コマンド例
-```sshfs hoge@0.0.0.0:/data/ sshfs_mnt```
+```sshfs hoge@0.0.0.0:/data/ sshfs_mnt```  
+
+- アンマウントはこちら  
+```fusermount -u sshfs_mnt ```
 
 ## 例
 1. sshfs でサーバー側のディレクトリをマウント。audacityからサーバー側にある音データを読み込む。これだけ！
